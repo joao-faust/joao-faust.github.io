@@ -29,7 +29,7 @@
 }
 
 #bio-container {
-    flex: 1 1 20%;
+    flex: 1 1 25%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
@@ -37,8 +37,12 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
+#bio-container p {
+    text-align: center;
+}
+
 #about-container {
-    flex: 1 1 80%;
+    flex: 1 1 75%;
     min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
@@ -58,9 +62,8 @@
 }
 
 #bio-image {
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
+    width: 300px;
+    max-width: 100%;
     margin-bottom: 25px;
 }
 
@@ -200,11 +203,6 @@
 
     #bio-container h2 {
         display: none;
-    }
-
-    #bio-container p {
-        max-width: 60%;
-        margin: 10px auto;
     }
 
     #about-container {
